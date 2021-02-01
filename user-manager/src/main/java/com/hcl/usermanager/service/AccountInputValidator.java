@@ -28,7 +28,7 @@ public class AccountInputValidator implements Filter {
                 e.printStackTrace();
             }
             /* Verify that
-             * username length >= 3username should can only contain letters, numbers, @, -, $, and _
+             * username length >= 3 and username can only contain letters, numbers, @, -, $, and _
              * password longer than 8 char and contains a number and a letter
              * birthday is not greater than today & 18 <= age <= 130 (using birthday)
              */
